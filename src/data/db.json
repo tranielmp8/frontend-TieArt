@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "title": "Name of Art",
+            "description": "description of the art and why it was created",
+            "artImage": "../images/kakashi.png"
+        },
+        {
+            "id": 2,
+            "title": "Name of Art",
+            "description": "description of the art and why it was created",
+            "artImage": "./images/kakashi2.png"
+        },
+        {
+            "id": 3,
+            "title": "Name of Art",
+            "description": "description of the art and why it was created",
+            "artImage": "./images/kakashi2.png"
+        },
+        {
+            "id": 4,
+            "title": "Name of Art",
+            "description": "description of the art and why it was created",
+            "artImage": "./images/kakashi2.png"
+        },
+        {
+            "id": 5,
+            "title": "Name of Art",
+            "description": "description of the art and why it was created",
+            "artImage": "./images/kakashi.png"
+        },
+        {
+            "id": 6,
+            "title": "Name of Art",
+            "description": "description of the art and why it was created",
+            "artImage": "./images/kakashi.png"
+        }
+    ]
+}
