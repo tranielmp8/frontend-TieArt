@@ -41,6 +41,7 @@ h1{
 @media screen and (max-width: 670px){
 
     .card-container{
+        padding: 0.5rem;
         grid-template-columns: 1fr;
     }
 }
