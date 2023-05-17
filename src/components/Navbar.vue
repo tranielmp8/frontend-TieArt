@@ -7,9 +7,9 @@
             <ul>
                 <li><router-link class="route-link" to="/">Home</router-link></li>
                 <li><router-link class="route-link" to="/about">About</router-link></li>
-                <li><router-link class="route-link" to="#" >Service</router-link></li>
+                <!-- <li><router-link class="route-link" to="#" >Service</router-link></li>
                 <li><router-link class="route-link" to="#" >Portfolio</router-link></li>
-                <li><router-link class="route-link" to="#" >Contact Me</router-link></li>
+                <li><router-link class="route-link" to="#" >Contact Me</router-link></li> -->
             </ul>
             <button type="button" >Subscribe</button>
         </nav>
@@ -77,5 +77,21 @@ button {
 button:hover {
     transform: scale(1.3);
     cursor: pointer;
+}
+
+@media screen and (max-width: 670px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-bottom: 15px;
+    }
+
+    button {
+        margin-top: 15px;
+    }
+
+    
 }
 </style>

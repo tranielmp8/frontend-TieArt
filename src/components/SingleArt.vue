@@ -32,13 +32,7 @@ h1{
     text-align: center;
 }
 
-.card-container {
-    padding: 3rem;
-    margin: 20px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-}
+
 .card{
     width: 400px;
     height: 500px;
@@ -105,4 +99,13 @@ h1{
     cursor: pointer;
     width: 120px;
 }
+
+@media screen and (max-width: 670px){
+
+    .card{
+        width: 350px;
+        height: 450px;
+    }
+}
+
 </style>

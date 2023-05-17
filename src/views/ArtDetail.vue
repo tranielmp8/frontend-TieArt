@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div class="item">
         <div v-if="error" >{{ error }}</div>
         <div v-if="item" >
             <h2>{{ item.title }}</h2>
             <img :src="item.artImage" alt="">
-            <p>{{ item.description }}</p>
+            <p class="description">{{ item.description }}</p>
         </div>
         
     </div>
@@ -27,5 +27,17 @@ import getItem from '../composables/getItem';
 </script>
 
 <style scoped>
+
+img {
+    border-radius: 7px;
+}
+
+.item {
+    padding: 10px;
+}
+.description {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
 </style>
