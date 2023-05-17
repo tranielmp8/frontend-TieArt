@@ -30,6 +30,7 @@ import getItem from '../composables/getItem';
 
 img {
     border-radius: 7px;
+    width: 300px;
 }
 
 .item {

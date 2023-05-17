@@ -103,8 +103,8 @@ h1{
 @media screen and (max-width: 670px){
 
     .card{
-        width: 350px;
-        height: 450px;
+        width: 300px;
+        height: 350px;
     }
 }
 
