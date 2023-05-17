@@ -6,7 +6,7 @@ const getItems = () => {
 
     const load = async () => {
         try {
-            let data = await fetch('http://localhost:4000/api/items')
+            let data = await fetch('https://backend-tieart-production.up.railway.app/api/items')
             if(!data.ok){
                 throw Error('No data available')
             // console.log(data)

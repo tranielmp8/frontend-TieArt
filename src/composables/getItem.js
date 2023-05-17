@@ -6,14 +6,14 @@ const getItem = (id) => {
 
     const load = async () => {
         try {
-            let data = await fetch('http://localhost:4000/api/items/' + id)
+            let data = await fetch('https://backend-tieart-production.up.railway.app/api/items/' + id)
             if(!data.ok){
                 throw Error('No item available')
             // console.log(data)
             }
             item.value = await data.json()
         } 
-        catch (error) {
+        catch (err) {
             error.value = err.message
         }
     }
